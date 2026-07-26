@@ -1,10 +1,5 @@
 venv/
 __pycache__/
 *.pyc
-
-trained_models/
-datasets/
-
 .env
-
 .streamlit/secrets.toml

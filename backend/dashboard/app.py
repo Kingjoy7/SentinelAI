@@ -49,10 +49,9 @@ df = pd.read_csv(DATA_PATH)
 # Sidebar
 # =====================================================
 
-st.sidebar.image(
-    "assets/logo.png",
-    width=90
-)
+LOGO_PATH = CURRENT_DIR / "assets" / "logo.png"
+
+st.sidebar.image(LOGO_PATH, width=90)
 
 st.sidebar.title("SentinelAI")
 

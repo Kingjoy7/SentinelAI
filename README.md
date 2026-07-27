@@ -4,8 +4,6 @@
 
 SentinelAI is an AI-driven cybersecurity solution that detects behavioral anomalies in enterprise environments using machine learning and explainable AI. The system generates synthetic enterprise activity logs, identifies anomalous user behavior, classifies attack types, and provides an interactive dashboard for security analysts.
 
-Developed as part of the **Honeywell Campus Connect Hackathon 2026**.
-
 ---
 
 ## Features
@@ -181,15 +179,9 @@ streamlit run backend/dashboard/app.py
 - Scikit-learn Documentation
 - Streamlit Documentation
 - Plotly Documentation
-
----
-
-## Team
-
-Developed for the **Honeywell Campus Connect Hackathon 2026**.
-
+  
 ---
 
 ## License
 
-This project is developed for educational and hackathon purposes.
+This project is developed for educational purposes.

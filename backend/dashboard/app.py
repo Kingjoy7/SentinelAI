@@ -1,7 +1,12 @@
+import sys
 from pathlib import Path
 
 import pandas as pd
 import streamlit as st
+
+CURRENT_DIR = Path(__file__).resolve().parent
+if str(CURRENT_DIR) not in sys.path:
+    sys.path.insert(0, str(CURRENT_DIR))
 
 from charts import (
     threat_distribution,
